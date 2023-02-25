@@ -1,0 +1,94 @@
+@import 'utility.css';
+:root{
+    --primary:#3DCFD3;
+    --dark:black;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+
+body{
+    font-family: 'Poppins',  sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: var(--dark);
+   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 80%, 0 100%);
+
+}
+
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.icon{
+    font-size: 50%;
+}
+
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+header nav{
+    padding: 2rem 0;
+}
+
+header nav .branding{
+   margin-right: 3rem;   
+}
+
+header nav .left a:hover{
+    color: var(--primary);
+}
+
+.hero .left img{
+    width: 400px;
+}
+
+.hero .right{
+    color: var(--pure);
+}
+
+.hero .right h6{
+    font-size: 1.8rem;
+    color: var(--primary);
+    margin-bottom: 0.7rem;
+}
+
+.hero .right h1{
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.hero .right h1 span{
+    color:var(--primary);
+}
+
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
+.hero .left img{
+    padding-right: 2rem;
+}
+
+section{
+    padding: 10rem ;
+
+}
